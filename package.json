@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "",
+    "start": "node index.js",
     "test": "mocha getListMultiplesOfTwo.test.js --timeout 50000 --reporter mocha-multi-reporters --reporter-options configFile=multi-reporters.json",
     "report": "mocha getListMultiplesOfTwo.test.js --sort --reporter @mochajs/json-file-reporter",
     "submit": "codestates"
